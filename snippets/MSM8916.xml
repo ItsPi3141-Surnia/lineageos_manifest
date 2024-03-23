@@ -38,4 +38,5 @@
     <project path="hardware/lineage/compat" name="ItsPi3141-Surnia/android_hardware_lineage_compat" revision="lineage-20.0" />
     <project path="hardware/motorola" name="ItsPi3141-Surnia/android_hardware_motorola" revision="lineage-20" />
     <project path="vendor/qcom/opensource/interfaces" name="ItsPi3141-Surnia/android_vendor_qcom_opensource_interfaces" revision="lineage-20.0" />
+    <project path="hardware/lineage/interfaces" name="ItsPi3141-Surnia/android_hardware_lineage_interfaces" revision="lineage-20.0" />
 </manifest>
