@@ -30,4 +30,7 @@
     <!-- Radio stuff -->
     <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-20.0" />
     <project name="LineageOS/android_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="github" revision="lineage-20.0" />
+
+    <!-- Custom LineageOS repo -->
+    <project path="vendor/lineage" name="ItsPi3141-Surnia/android_vendor_lineage" />
 </manifest>
