@@ -28,6 +28,6 @@
     <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8916/media" remote="github" revision="lineage-19.0-caf-msm8916" />
 
     <!-- Radio stuff -->
-    <!-- <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-20.0" /> -->
+    <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-20.0" />
     <project name="LineageOS/android_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="github" revision="lineage-20.0" />
 </manifest>
