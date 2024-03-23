@@ -33,4 +33,5 @@
 
     <!-- Custom LineageOS repo -->
     <project path="vendor/lineage" name="ItsPi3141-Surnia/android_vendor_lineage" />
+    <project path="hardware/lineage/compat" name="ItsPi3141-Surnia/android_hardware_lineage_compat" />
 </manifest>
