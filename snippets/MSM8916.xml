@@ -26,12 +26,16 @@
     <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8916/display" remote="github" revision="lineage-19.0-caf-msm8916" />
     <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8916/media" remote="github" revision="lineage-19.0-caf-msm8916" />
 
+    <!-- Qualcomm vendor stuff -->
+    <project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs/hw" remote="github" revision="lineage-19.1" />
+
     <!-- Radio stuff -->
     <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-20.0" />
     <project name="LineageOS/android_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="github" revision="lineage-20.0" />
 
     <!-- Custom LineageOS repo -->
-    <project path="vendor/lineage" name="ItsPi3141-Surnia/android_vendor_lineage" />
-    <project path="hardware/lineage/compat" name="ItsPi3141-Surnia/android_hardware_lineage_compat" />
-    <project path="hardware/motorola" name="ItsPi3141-Surnia/android_hardware_motorola" />
+    <project path="vendor/lineage" name="ItsPi3141-Surnia/android_vendor_lineage" revision="lineage-20.0" />
+    <project path="hardware/lineage/compat" name="ItsPi3141-Surnia/android_hardware_lineage_compat" revision="lineage-20.0" />
+    <project path="hardware/motorola" name="ItsPi3141-Surnia/android_hardware_motorola" revision="lineage-20" />
+    <project path="vendor/qcom/opensource/interfaces" name="ItsPi3141-Surnia/android_vendor_qcom_opensource_interfaces" revision="lineage-20.0" />
 </manifest>
