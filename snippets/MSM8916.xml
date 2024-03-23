@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project name="ItsPi3141-Surnia/lineageos_android_device_motorola_surnia" path="device/motorola/surnia" remote="github" revision="lineage-20" />
+    <project name="ItsPi3141-Surnia/lineageos_android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="lineage-20" />
+
+    <project name="MOTO-M8916/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="lineage-19.1" />
+    <project name="MOTO-M8916/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-19.1" />
+
+    <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-20" />
+    <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20" />
+    <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="github" revision="lineage-20" />
+
+    <!-- Don't upgrade this to newer branch -->
+    <!-- New commits contain breaking changes -->
+    <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-18.1" />
+    <project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="github" revision="lineage-18.1-legacy" />
+
+    <!-- Latest version is 18.1 -->
+    <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-18.1" />
+    <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="github" revision="lineage-18.1" />
+
+    <project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" remote="github" revision="lineage-18.1" />
+
+    <!-- Last version for msm8916 is 19.0 -->
+    <!-- Qualcomm hardware stuff -->
+    <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8916/audio" remote="github" revision="lineage-19.0-caf-msm8916" />
+    <project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8916/display" remote="github" revision="lineage-19.0-caf-msm8916" />
+    <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8916/media" remote="github" revision="lineage-19.0-caf-msm8916" />
+
+    <!-- Radio stuff -->
+    <!-- <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="github" revision="lineage-20.0" /> -->
+    <project name="LineageOS/android_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="github" revision="lineage-20.0" />
+</manifest>
