@@ -8,7 +8,6 @@
 
     <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-20" />
     <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-20" />
-    <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="github" revision="lineage-20" />
 
     <!-- Don't upgrade this to newer branch -->
     <!-- New commits contain breaking changes -->
@@ -34,4 +33,5 @@
     <!-- Custom LineageOS repo -->
     <project path="vendor/lineage" name="ItsPi3141-Surnia/android_vendor_lineage" />
     <project path="hardware/lineage/compat" name="ItsPi3141-Surnia/android_hardware_lineage_compat" />
+    <project path="hardware/motorola" name="ItsPi3141-Surnia/android_hardware_motorola" />
 </manifest>
